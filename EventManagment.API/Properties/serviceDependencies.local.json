@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "identityapp1": {
+      "connectionInfo": "App registration: eventmanagment_server, Tenant: Event Management Solution (eventmanagementsolution.onmicrosoft.com - AAD B2C)",
+      "secretStore": null,
+      "resourceId": null,
+      "type": "identityapp.default"
+    }
+  }
+}
