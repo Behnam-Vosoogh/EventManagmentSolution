@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagment.Api", "Event
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagment.API", "EventManagment.API\EventManagment.API.csproj", "{A83A1FAD-2D18-4D2F-B33F-7CD2C347EAD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagmentSolution.Blazor", "EventManagmentSolution.Blazor\EventManagmentSolution.Blazor.csproj", "{D7A981EB-2237-48EB-931D-83F6C51522B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{0CD7599C-3773-446E-9651-74BAF27257F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,10 @@ Global
 		{A83A1FAD-2D18-4D2F-B33F-7CD2C347EAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A83A1FAD-2D18-4D2F-B33F-7CD2C347EAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A83A1FAD-2D18-4D2F-B33F-7CD2C347EAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A981EB-2237-48EB-931D-83F6C51522B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A981EB-2237-48EB-931D-83F6C51522B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A981EB-2237-48EB-931D-83F6C51522B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A981EB-2237-48EB-931D-83F6C51522B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +45,7 @@ Global
 		{1F68477C-F0F5-4F03-85A5-CE021D605432} = {2BD5D134-8F0D-4D98-BA83-E78AC83F706C}
 		{E4F96E16-163D-478D-88E2-614B1EC0E96A} = {2BD5D134-8F0D-4D98-BA83-E78AC83F706C}
 		{A83A1FAD-2D18-4D2F-B33F-7CD2C347EAD0} = {2BD5D134-8F0D-4D98-BA83-E78AC83F706C}
+		{D7A981EB-2237-48EB-931D-83F6C51522B2} = {0CD7599C-3773-446E-9651-74BAF27257F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF2F2A0D-F3B6-4CB3-982A-9FEDE05B99F4}
