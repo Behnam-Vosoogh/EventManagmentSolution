@@ -1,4 +1,4 @@
-using EventManagmentSolution.Blazor;
+using EventManagment.Blazor;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
@@ -11,7 +11,8 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 builder.Services.AddMsalAuthentication(options =>
 {
     builder.Configuration.Bind("AzureAd", options.ProviderOptions.Authentication);
-    options.ProviderOptions.DefaultAccessTokenScopes.Add("[YOUR_URI");
+    options.ProviderOptions.DefaultAccessTokenScopes.Add("[YOUR_URI]");
+
 });
 
 builder.Services.AddOidcAuthentication(options =>

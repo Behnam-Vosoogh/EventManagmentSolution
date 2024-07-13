@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "identityapp1": {
-      "connectionInfo": "App registration: [NAME_OF_YOUR APP], Tenant: Event Management Solution ([NAME_OF_YOUR_DOMAIN].onmicrosoft.com - AAD B2C)",
-      "type": "identityapp.default"
-    }
-  }
-}
