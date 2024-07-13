@@ -13,8 +13,8 @@ namespace EventManagment.Models.Domain
         [StringLength(40)]
         public string Name { get; set; }
 
-        //public virtual Event Event { get; set; }
+        public virtual Event Event { get; set; }
 
-        //public string EventId { get; set; }
+        public string EventId { get; set; }
     }
 }

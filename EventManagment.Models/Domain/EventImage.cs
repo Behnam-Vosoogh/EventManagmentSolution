@@ -16,8 +16,8 @@ namespace EventManagment.Models.Domain
         [StringLength(256)]
         public string ThumpUrl { get; set; }
 
-        //public virtual Event Event { get; set; }
+        public virtual Event Event { get; set; }
 
-        //public string EventId { get; set; }
+        public string EventId { get; set; }
     }
 }
