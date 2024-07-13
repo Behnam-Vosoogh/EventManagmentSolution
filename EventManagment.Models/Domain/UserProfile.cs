@@ -51,7 +51,7 @@ namespace EventManagment.Models.Domain
         public virtual List<Like> Likes { get; set; }
 
 
-        //public virtual List<JobApplication> SentApplications { get; set; } // Sent by normal user
-        //public virtual List<JobApplication> RecievedApplications { get; set; } // Sent by normal user
+        public virtual List<JobApplication> SentApplications { get; set; } // Sent by normal user
+        public virtual List<JobApplication> RecievedApplications { get; set; } // Sent by normal user
     }
 }
