@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventManagment.Blazor", "Ev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagment.Repositories", "EventManagment.Repositories\EventManagment.Repositories.csproj", "{A6D5BDC5-3D63-4B68-8E5E-6625626DDC1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagment.Services", "EventManagment.Services\EventManagment.Services.csproj", "{656BC59E-098B-4BE9-BC6D-92770192860D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagment.Shared", "EventManagment.Shared\EventManagment.Shared.csproj", "{5D99491A-9990-4603-A140-1D8CCB151C07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,14 @@ Global
 		{A6D5BDC5-3D63-4B68-8E5E-6625626DDC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6D5BDC5-3D63-4B68-8E5E-6625626DDC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6D5BDC5-3D63-4B68-8E5E-6625626DDC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656BC59E-098B-4BE9-BC6D-92770192860D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656BC59E-098B-4BE9-BC6D-92770192860D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656BC59E-098B-4BE9-BC6D-92770192860D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656BC59E-098B-4BE9-BC6D-92770192860D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D99491A-9990-4603-A140-1D8CCB151C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D99491A-9990-4603-A140-1D8CCB151C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D99491A-9990-4603-A140-1D8CCB151C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D99491A-9990-4603-A140-1D8CCB151C07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +58,7 @@ Global
 		{E4F96E16-163D-478D-88E2-614B1EC0E96A} = {2BD5D134-8F0D-4D98-BA83-E78AC83F706C}
 		{5146BCFA-905A-473F-B17B-B1900D83E777} = {0CD7599C-3773-446E-9651-74BAF27257F1}
 		{A6D5BDC5-3D63-4B68-8E5E-6625626DDC1B} = {2BD5D134-8F0D-4D98-BA83-E78AC83F706C}
+		{656BC59E-098B-4BE9-BC6D-92770192860D} = {2BD5D134-8F0D-4D98-BA83-E78AC83F706C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF2F2A0D-F3B6-4CB3-982A-9FEDE05B99F4}

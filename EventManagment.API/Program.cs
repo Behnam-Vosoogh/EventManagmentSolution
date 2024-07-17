@@ -11,6 +11,7 @@ internal class Program
         var builder = WebApplication.CreateBuilder(args);
         builder.Services.AddB2CAuthentication(builder.Configuration);
         builder.Services.AddApplicationDatabaseContext(builder.Configuration);
+        builder.Services.AddUnitOfWork();
         builder.Services.ConfigureCors();
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
