@@ -1,4 +1,5 @@
 ﻿using EventManagment.Models.Data;
+using EventManagment.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Web;
@@ -21,6 +22,10 @@ namespace EventManagment.API.Extensions
                     sqlOptions.MigrationsAssembly("EventManagment.API");
                 });
             });
+        }
+        public static void AddUnitOfWork(this IServiceCollection services)
+        {
+            services.AddScoped<IUnitOfWork, EfUnitOfWork>();
         }
         public static void ConfigureCors(this IServiceCollection services)
         {
