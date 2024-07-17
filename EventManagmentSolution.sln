@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventManagment.API", "Event
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{0CD7599C-3773-446E-9651-74BAF27257F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagment.Blazor", "EventManagment.Blazor\EventManagment.Blazor.csproj", "{5146BCFA-905A-473F-B17B-B1900D83E777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventManagment.Blazor", "EventManagment.Blazor\EventManagment.Blazor.csproj", "{5146BCFA-905A-473F-B17B-B1900D83E777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagment.Repositories", "EventManagment.Repositories\EventManagment.Repositories.csproj", "{A6D5BDC5-3D63-4B68-8E5E-6625626DDC1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{5146BCFA-905A-473F-B17B-B1900D83E777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5146BCFA-905A-473F-B17B-B1900D83E777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5146BCFA-905A-473F-B17B-B1900D83E777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D5BDC5-3D63-4B68-8E5E-6625626DDC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D5BDC5-3D63-4B68-8E5E-6625626DDC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D5BDC5-3D63-4B68-8E5E-6625626DDC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D5BDC5-3D63-4B68-8E5E-6625626DDC1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{1F68477C-F0F5-4F03-85A5-CE021D605432} = {2BD5D134-8F0D-4D98-BA83-E78AC83F706C}
 		{E4F96E16-163D-478D-88E2-614B1EC0E96A} = {2BD5D134-8F0D-4D98-BA83-E78AC83F706C}
 		{5146BCFA-905A-473F-B17B-B1900D83E777} = {0CD7599C-3773-446E-9651-74BAF27257F1}
+		{A6D5BDC5-3D63-4B68-8E5E-6625626DDC1B} = {2BD5D134-8F0D-4D98-BA83-E78AC83F706C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF2F2A0D-F3B6-4CB3-982A-9FEDE05B99F4}
