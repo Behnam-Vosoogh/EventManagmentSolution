@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EventManagment.Repositories
 {
-    public  interface IUserProfileRepository
+    public  interface IUserProfilesRepository
     {
         Task CreateAsync(UserProfile userProfile);
 

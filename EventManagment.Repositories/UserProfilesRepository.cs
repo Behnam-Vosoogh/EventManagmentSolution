@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EventManagment.Repositories
 {
-    public class UserProfilesRepository : IUserProfileRepository
+    public class UserProfilesRepository : IUserProfilesRepository
     {
         private readonly ApplicationDbContext _db;
 
